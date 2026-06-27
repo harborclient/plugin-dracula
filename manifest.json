@@ -1,0 +1,23 @@
+{
+  "id": "com.harborclient.plugins.dracula",
+  "name": "Dracula Theme",
+  "version": "1.0.0",
+  "author": "HarborClient",
+  "description": "README.md",
+  "screenshots": [
+    {
+      "path": "screenshot.png",
+      "caption": "Dracula in Settings → General → Appearance"
+    }
+  ],
+  "homepage": "https://github.com/harborclient/plugin-dracula",
+  "bugs": {
+    "url": "https://github.com/harborclient/plugin-dracula/issues"
+  },
+  "engines": { "harborclient": ">=1.8.0" },
+  "renderer": "dist/renderer.js",
+  "permissions": ["ui"],
+  "contributes": {
+    "themes": [{ "id": "dracula", "title": "Dracula", "type": "dark" }]
+  }
+}
