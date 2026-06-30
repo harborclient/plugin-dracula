@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.dracula",
-  "pluginVersion": "1.0.1",
+  "pluginVersion": "1.0.2",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -10,19 +10,19 @@
     },
     {
       "path": "dist/renderer.js",
-      "sha256": "45ab4103de51181108d7251dcc18a51e5b8bed4e0000e8fbb95ed38567199411"
+      "sha256": "7305a2f8189a0102480e0c6d0393f41b6ba1379087f61922b80b97d726076e18"
     },
     {
       "path": "manifest.json",
-      "sha256": "2f317e7307645bdf32c30a1d0c36c41d5de0b4960eef2dfdadfed58c6642f0d9"
+      "sha256": "1a401704c8def6c0f8498661d6e0378130df89921a79da712be5503315594f08"
     },
     {
       "path": "package.json",
-      "sha256": "f6ea8ffbf7b7fef022b50d5c7743a9f31b4929a69b15c41d152c7bc33b55ad98"
+      "sha256": "df0501f285d4da78eda097184902ea727d5408a6c399f3b832581c8d4b44f3ae"
     },
     {
       "path": "pnpm-lock.yaml",
-      "sha256": "9b7ee16b5557abcac40b37b8e35794e8e7ae8a8d1ce92fd677dead6d4275376b"
+      "sha256": "d761af9eb8f77808546420b2d2b00beec7f73020bc060d2136dea61133eb03f1"
     },
     {
       "path": "README.md",
@@ -31,6 +31,10 @@
     {
       "path": "screenshot.png",
       "sha256": "bed17e7eee9d1a4e32482d62027a8072f062e7740684f8e4250e9ae4875d7b20"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "6bca52efb2dbbaa84dd0efc9fd0fb02a8a9c59dd666756b4006b2f86ba902539"
     },
     {
       "path": "scripts/plugin-sign.ts",
@@ -50,12 +54,12 @@
     },
     {
       "path": "src/renderer.tsx",
-      "sha256": "d5b9abad1b03926a16b271925f785ac33fee0a1d7db366887af2105685176854"
+      "sha256": "94b273f883da972b26a918b69af931a8f633e3be64c7dd39606baf31dc0a4833"
     },
     {
       "path": "tsconfig.json",
-      "sha256": "dced0ea880bec6222ac9856d3d2ce11b91fd874298f3129c8b5944606dc73668"
+      "sha256": "663c22f2cb634722bc1c1191c4808b53c89d930979d4936cb6d0a539f4476ac9"
     }
   ],
-  "signature": "R/c4sT2Bm1PQqWiqS3l+OiavJ1MKEr+SuF3ZoM5q/MLXtl2d6HBiNkKvu1lkzUxNO2XbKn+rXNsyibbxNSXwBA=="
+  "signature": "nCWmTnvv+RxfiqN4oUcZ9McG4KTs1lM6b4w12Az7Pg+Ew54C3X50AIVjp0u6XICeCawlVl26fWzfaOh5RlfwBA=="
 }
